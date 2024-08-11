@@ -1,0 +1,41 @@
+.info  h4{
+    color:  #efd96b;
+}
+
+#first{
+    margin-left: 30%;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.info{
+    margin: 10px;
+}
+
+.Sata h4{
+    margin: 5px;
+    color:  #efd96b;
+}
+
+.Sata h3{
+    color: blueviolet;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name info{
+   width: 70%;
+}
+
+.pi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

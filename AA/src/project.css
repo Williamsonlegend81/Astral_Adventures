@@ -1,0 +1,40 @@
+#ISRO{
+    color:  #efd96b;
+    margin-left: 250px;
+    margin-right: 90px;
+    
+    text-decoration: underline;
+}
+
+
+
+#ISRO2{
+    color: aqua;
+    margin: 10px;
+}
+
+h5{
+    color: aquamarine;
+    margin: 5px;
+}
+
+.page1{
+    margin: 250px 20px;
+}
+
+.page2{
+    margin: 42px 20px;
+}
+
+.page1 p,.page2 p{
+    font-size: 20px;
+}
+
+.project1,.project2,.project3,.project4,.project5{
+    border: 10px solid red;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color:#540254;
+}
+

@@ -1,0 +1,30 @@
+/* Game Home  */
+.Gamecon{
+    
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100vh;
+    width: 100%;
+     
+  }
+
+
+.box10{
+    border:10px double red;
+    border-radius: 6px;
+    width: 300px;
+    height: 425px;
+    margin: 10px 3px;
+    cursor: pointer;
+  }
+
+  .Gamecon img{
+    width: 280px;
+    height: 405px;
+  }
+
+  

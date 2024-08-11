@@ -1,0 +1,44 @@
+#APJ{
+    color:  #efd96b;
+    font-size: 30px;
+    margin: 10px 20%;
+    font-family: "Caveat", cursive;
+}
+.Science{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+.boxes{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px double red;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: purple;
+}
+
+.boxes b{
+    color:  #efd96b;
+    font-size: 25px;
+}
+
+.boxes p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+h1{
+    margin: 0 30%;
+}
+
+
+/* Utility */
+
+#Pic{
+    width: 200px;
+    height: 300px;
+}

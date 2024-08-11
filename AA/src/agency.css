@@ -1,0 +1,32 @@
+.isro{
+    font-size: 20px;
+    margin: 30px;
+}
+
+ul{
+    position: relative;
+    top: 10px;
+}
+ ul li{
+    list-style: circle;
+   margin: 30px;
+}
+.head{
+    margin: auto;
+    text-align: center;
+    color:#b8a33a;
+}::-ms-clear
+.quote{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+

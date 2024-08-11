@@ -1,0 +1,238 @@
+
+.navbar1 {
+    background-color: #333;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.navbar1 img{
+    position: absolute;
+  left: 3%;
+  top: 3px;
+  width: 105px;
+  height: 60px;
+}
+
+.navbar1 a {
+   
+    color: white;
+     text-decoration: none;
+    padding: 10px 20px;
+    position: relative;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+
+.navbar a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    background: #ff6347; /* Tomato color */
+    transition: width 0.3s ease;
+  }
+  
+
+.navbar1 a:hover {
+    color: #ff6347; /* Tomato color */
+  }
+  
+  .navbar1 a:hover::after {
+    width: 100%;
+  }
+
+
+  /* Planets style */
+
+  #pla{
+    margin-top: 100px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+  }
+  .planets{
+
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 5px;
+    margin-top: 112px;
+  }
+
+  .box{
+    border: 2px solid red;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+
+  }
+
+  .box img{
+       height: 200px;
+       
+       
+  }
+
+  .box .sa{
+    width: 320px;
+  }
+
+  .box h2{
+    color: #efd96b;
+  }
+
+  .box p{
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  /* Exoplanet */
+
+  #Exo{
+     
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+
+  #Exo h1{
+    margin: 0 40%;
+  }
+  #Exo h3{
+   
+    margin-top: 20px;
+    color: #efd96b;
+    
+  }
+
+  #Exo p{
+    font-size: 25px;
+  }
+
+  #Exo p b{
+    color: #efd96b;
+  }
+
+  
+
+  .exp p{
+    width: 70%;
+  }
+
+  #Exo .exp{
+      display: flex;
+  }
+
+
+  #Flying{
+    margin-top: 120px;
+    font-size: 20px;
+  }
+
+  #Flying h1{
+    margin: 0 35%;
+  }
+
+  #Flying p b{
+    color: #efd96b;
+  }
+
+  .obj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .obj p{
+    width: 70%;
+  }
+
+  #Galaxy1{
+    margin-top: 120px;
+    display: flex;
+flex-direction: column;
+    font-size: 20px;
+   justify-content: center;
+   
+  }
+
+  #Galaxy1 h1{
+    margin: 0 40%;
+  }
+
+  #Galaxy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+
+  #Galaxy p
+    {
+    width: 70%;
+    }
+
+  #Galaxy p b{
+    color: #efd96b;
+  }
+
+  #Stars{
+    /* display: flex; */
+    margin-top: 120px;
+    font-size: 20px;
+  }
+
+  #Stars h1{
+    margin: 0 40%;
+  }
+
+  #Stars p{
+    width: 70%;
+  }
+  
+  #Stars  b{
+
+    color: #efd96b;
+  }
+
+  .st{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+
+
+  /* Utility */
+  #Photo{
+    width: 429px;
+    height: 300px;
+  }
